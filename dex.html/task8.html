@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bor{
+        width: 500px;
+        height:50px;
+        padding: 15px;
+        background-color:lightgray;
+        overflow: hidden;
+        position: absolute;
+        left: 550px;
+      }
+      .image{
+        display: flex;
+        justify-content: center;
+      }
+      .main{
+        display: flex;
+        justify-content: center;
+      }
+form {
+    padding-left: 550px;
+    display: inline-block;
+}
+    </style>
+</head>
+<body>
+    <div class="image">
+        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7914838/woman-icon-md.png" alt="unavailable" width="300px" height="300px">
+    </div>
+    <form>
+        <label style="font-weight:bold;">User Name</label><br>
+        <input type="text" placeholder="Enter your name" style=" width: 500px;height:20px;" /><br><br>
+        <label style="font-weight:bold;">Password</label><br>
+        <input type="password" placeholder="Enter your password" style=" width: 500px;height:20px;"/><br><br>
+        <button style="background-color: yellowgreen; width: 500px;height:30px;" >Login</button><br><br>
+        <input type="checkbox" name="Remember">
+        <label for="Remember"> Remember me </label><br><br>
+    </form>
+    <div class="bor">
+        <button style="background-color: red; " >Cancel</button>
+        <a href="#forgot" style="float:right">Forgot password?</a>
+    </div>
+</body>
+</html>

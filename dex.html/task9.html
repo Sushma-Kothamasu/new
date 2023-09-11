@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            text-align: justify;
+            font-weight: bold;
+            display: inline-block;
+            color:whitesmoke
+            
+        }
+        .butt1{
+            border-radius: 12px;
+            padding:10px;
+            background-color:white;
+            width: 700px;
+            height:40px
+        }
+        .new{
+            background-color: rgb(80, 6, 27);;
+            padding-left: 150px;
+            overflow: hidden;
+        position: absolute;
+        left: 250px;
+        right:250px;
+        top:50px;
+        bottom:50px;
+        padding-top: 100px;
+
+        }  
+    </style>
+</head>
+<body
+bgcolor="orange";>
+    <form class="new">
+        <label style="width:150px;">Name:</label>
+        <input type="text" placeholder="Enter your name" style=" width: 500px;height:20px;" /><br><br>
+        <label  style="width:150px;" >Email:</label>
+        <input type="mail" placeholder="Enter your mail" style=" width: 500px;height:20px;" /><br><br>
+        <label  style="width:150px;">Password</label>
+        <input type="password" placeholder="Enter your password" style=" width: 500px;height:20px;"/><br><br>
+        <label  style="width:150px;">Phone Number: </label>
+        <input type="integer" placeholder="Enter your mobile number" style=" width: 500px;height:20px;" /><br><br>
+        <label  style="width:150px;" >Gender:</label>
+        <label>Male:</label>  <input type="radio" name="Gender">
+        <label>Female:</label>  <input type="radio" name="Gender">
+        <label>Other:</label>  <input type="radio" name="Gender"><br><br>
+        <label  style="width:150px;" >Language:</label>
+        <select name="Language"  >
+            <option value="">Select a language</option>
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Telugu</option>
+            <option>Spanish</option>
+            <option>Malyalam</option>
+            <option>Tamil</option>
+            <option>Kannada</option>
+            <option>Odissi</option>
+            <option>Marati</option>
+            <option>Gujarati</option>
+            <option>French</option>
+            <option>Japanese</option>
+            <option>Chinese</option>
+            <option>Italian</option>
+            <option>Korean</option>
+            <option>Bengali</option>
+        </select><br><br>
+        <label  style="width:150px;">Zipcode:</label>
+        <input type="integer" placeholder="Enter your zipcode" style=" width: 500px;height:20px;" /><br><br>
+        <label  style="width:150px;">About:</label>
+<textarea id="freeform" name="freeform" placeholder="write about yourself...." style=" width: 500px;height:50px;"  >
+</textarea><br><br>
+        
+        <button class="butt1" >Register</button><br><br>
+        
+    </form>
+    
+</body>
+</html>
